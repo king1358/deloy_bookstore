@@ -1,0 +1,29 @@
+#autocomplete {
+  width: 200px;
+  position: relative;
+  height: 300px;
+}
+
+#search {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #666;
+  margin: 0;
+}
+
+#options {
+  margin: 2px;
+  padding: 0;
+  display: none;
+  list-style-type: none;
+  border: 1px solid #666;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 100%;
+}
+#options li {
+  line-height: 25px;
+  color: blue;
+  cursor: pointer;
+}
