@@ -1,16 +1,21 @@
 import React, { useState, useEffect } from "react";
-import Paper from "@mui/material/Paper";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TablePagination from "@mui/material/TablePagination";
-import TableRow from "@mui/material/TableRow";
+
 import jwt_decode from "jwt-decode";
+
+import {
+  CssBaseline,
+  Paper,
+  Table,
+  TableBody,
+  TableContainer,
+  TableHead,
+  TablePagination,
+  TableRow,
+  TableCell,
+} from "@material-ui/core";
+
 import axios from "axios";
 import useStyles from "./styles";
-import { CssBaseline } from "@material-ui/core";
 import Cookies from "universal-cookie";
 import { formatter } from "../../../lib/formatM";
 export default function ListOrder() {
